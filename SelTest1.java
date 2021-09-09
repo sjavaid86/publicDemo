@@ -14,24 +14,6 @@ public class SelTest1 {
 
 		// Test Parameters to be loaded. 
 		// String bURL = "https://go.itelearn.com/";
-		String bURL = "https://anyaut.com/";
-		String chromeDriver = "C:\\Training\\Nov2020-QA SDET\\Drivers\\chromedriver.exe";
-		System.setProperty("webdriver.chrome.driver", chromeDriver); // Pointing my ChromeDriver.
-		
-		WebDriver myD; // A basic empty WebDriver. 
-		myD = new ChromeDriver(); // Opens a ChromeDriver Window.
-		
-		//WebDriver myDriver = new ChromeDriver();
-		// 1. Go to AUT
-		myD.navigate().to(bURL); // Navigate method 
-		Thread.sleep(2000); // Java only command to Sleep the program for 2000 MS.
-
-		// 2. Get Title
-		System.out.println("Title is " + myD.getTitle());
-		
-		// 3. Close the AUT
-		myD.close();
-		
 		System.out.println(" ~~~~~~~~~~~~~~~ End of TEST ~~~~~~~~~~~~~~~ ");
 
 	}
